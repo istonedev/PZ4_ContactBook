@@ -1,0 +1,37 @@
+# Files with secret keys
+.env
+.env.local
+.env.*.local
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+*.temp
+
+# System files (Windows, macOS, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Build results (if you will work with TypeScript or other build tools)
+dist/
+build/
+out/
+__pycache__
+*.pyc
+
+# Test coverage reports (if you will use a testing framework that generates coverage reports)
+coverage/
+.nyc_output/
+
+# Other files and directories that you want to ignore
+.cache/
+.temp/
